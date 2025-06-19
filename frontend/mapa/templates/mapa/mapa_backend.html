@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>🗺️ Previsão de Acidentes</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="container mt-4">
+
+  <h2 class="text-center"><b>HeatAI Recife</b> : Combina mapas de calor (heatmaps) e inteligência artificial (AI).</h2>
+
+  <!-- Formulário de entrada do ano -->
+  <form method="POST" class="text-center">
+    {% csrf_token %}
+    <label for="ano">Ano:</label>
+    <input type="number" name="ano" id="ano" value="{{ ano }}" min="{{ ano_atual }}" required class="form-control w-25 mx-auto"/>
+    <button type="submit" class="btn btn-primary mt-2">Prever</button>
+  </form>
+
+  <!-- Mensagem de erro (se houver) -->
+  {% if erro %}
+    <p class="text-danger text-center">{{ erro }}</p>
+  {% endif %}
+
+  <!-- Bloco com o mapa de calor renderizado -->
+  {% if mapa_html %}
+    <div class="mt-4">{{ mapa_html|safe }}</div>
+  {% endif %}
+
+</body>
+</html>
