@@ -101,6 +101,3 @@ Pronto para colocar isso no GitHub ou em produção? 🚀📊🛡️
 
 ---
 
-Se quiser, posso gerar a versão `requirements.txt`, instruções para deploy ou adicionar um gráfico de arquitetura. É só pedir! 😄  
-Pronto para colocar isso no GitHub ou em produção? 🚀📊🛡️  
-
