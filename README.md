@@ -38,7 +38,6 @@ meu_projeto_api/ ├── backend/ │   └── app/ │       ├── rou
 # Lógica do frontend Django │   ├── urls.py                      
 # Roteamento da aplicação ├── venv/  
 
-
 ---
 
 ##  Como rodar o projeto localmente
