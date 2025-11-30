@@ -443,7 +443,7 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 ---
 
-**Desenvolvido com ❤️ por pessoas que acreditam que IA pode salvar vidas**
+**Desenvolvido por pessoas que acreditam que IA pode salvar vidas**
 
 **Versão:** 1.0.0
 
