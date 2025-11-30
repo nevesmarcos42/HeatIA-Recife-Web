@@ -36,8 +36,7 @@ meu_projeto_api/ ├── backend/ │   └── app/ │       ├── rou
 # Dados de entrada ├── frontend/ │   ├── templates/ │   │   └── mapa_backend.html        
 # Template com visualização do mapa │   ├── views.py                     
 # Lógica do frontend Django │   ├── urls.py                      
-# Roteamento da aplicação ├── venv/                            
-# Ambiente virtual (não versionado)
+# Roteamento da aplicação ├── venv/  
 
 
 ---
